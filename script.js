@@ -1,21 +1,25 @@
-// creating an array
-// Array.isarray method
+const myName = "Marco";
 
-let shoppingList = [
-    "milk",
-    "bread",
-    "cheese",
-    3,
-];
+let myAge = 46;
 
-console.log(Array.isArray (shoppingList));
+//Function
+function multiplier(num1, num2) {
+  return num1 * num2;
+}
 
-//how do we target an array within another array and check it is an array
+// multiplier(2, 2);
 
-const Array = ["one"]
+// Array
+const myList = ["one", "two", "three"];
+console.log(myList.length);
+//Object
+const marco = {
+  height: 1.6,
+  colorOfEye: "a bit blue",
+  age: 46,
+};
 
-const someArray = ["one", 6, ["a", "b", "c"]];
-
-//Array.isArray(someArray[2][1]);
-
-//console.log(Array.isArray (shoppingList));
+myAge = 47;
+for (let counter = 0; counter < myList.length; counter = counter + 1) {
+  console.log(`the actual counter is; ${counter} and my age is ${myAge}`);
+}
