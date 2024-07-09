@@ -12,6 +12,7 @@ function multiplier(num1, num2) {
 // Array
 const myList = ["one", "two", "three"];
 console.log(myList.length);
+
 //Object
 const marco = {
   height: 1.6,
@@ -19,7 +20,7 @@ const marco = {
   age: 46,
 };
 
-myAge = 47;
+//for loop
 for (let counter = 0; counter < myList.length; counter = counter + 1) {
   console.log(`the actual counter is; ${counter} and my age is ${myAge}`);
 }
